@@ -42,13 +42,11 @@ This command will generate tailwind.config.js and postcss.config.js configuratio
 - Now, we need to add the path of our template files in our **tailwind.config.js** file. Template files include HTML templates, JavaScript components, and other source files that contain Tailwind class names. This is to make sure that vanilla CSS is generated for the corresponding elements.
 
 Currently, your **tailwind.config.js** file will look like this:
-
 ![image](https://github.com/user-attachments/assets/1d4d12e2-e447-4640-bf34-f96729c0c45f)
 
 - We will add `"./index.html", "./src/**/*.{js,ts,jsx,tsx}"` this in our content section.
 
-- Now our tailwind.config.js file will look like this
-
+Now our tailwind.config.js file will look like this
 ![image](https://github.com/user-attachments/assets/e9bf5940-331f-4685-bce4-aae938a8af93)
 
 - Make sure that you don’t add space in between them *.{js,ts,jsx,tsx}
@@ -68,8 +66,8 @@ Currently, your **tailwind.config.js** file will look like this:
 - You can also remove **App.css file**.
 
 ### Step 6 — Start using Tailwind CSS
-Now, we can start using tailwind. Open your App.tsx file, and now you can use Tailwind CSS classes
 
+Now, we can start using tailwind. Open your App.tsx file, and now you can use Tailwind CSS classes
 ![image](https://github.com/user-attachments/assets/1492d1ca-ee46-4b5f-8844-cb57253e4a1a)
 
 Now start your server using
